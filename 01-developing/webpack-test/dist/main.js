@@ -1,0 +1,1 @@
+(()=>{"use strict";document.body.appendChild(((e="Hello world !")=>{const t=document.createElement("div");return t.innerText=e,t.style.color="red",t})("Hola!"))})();

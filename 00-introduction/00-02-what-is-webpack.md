@@ -1,4 +1,4 @@
-*Webpack* = module bundler
+  *Webpack* = module bundler
 
 *Task runner* = program that automatically executes in the background
 
@@ -6,7 +6,7 @@
 
 *Hot Module Replacement:* rebundling module after modification during the development process. Used to easily see the effect of said modification automatically in the browser.
 
-Webpack can be used for more that website bundling.
+Webpack can be used for more than website bundling.
 
 Check *Comparison of Build Tools appendix* for history of build
 
@@ -27,7 +27,7 @@ A lot of syntax is supported. A lot of plugins available.
 
 *Loader*: it's a way to insert code from another file. Importing = Loading
 -> We could call it *importer*
--> So css-loader means css importer (handled `url()` and `@import`)
+-> So `css-loader` means css importer (handled `url()` and `@import`)
 
 ## Webpack’s execution process
 
@@ -66,7 +66,7 @@ Webpack can consider any type of file as a dependency. (we can import anything !
 -> import css can mean: import path to css, import it as an object...
 
 ### Evaluation process
-Loaders are executed from bottom to top (or left to right)
+Loaders are executed from bottom to top (or right to left)
 
 Output goes in the bundle
 

@@ -1,4 +1,5 @@
-  *Webpack* = module bundler
+# What is webpack
+*Webpack* = module bundler
 
 *Task runner* = program that automatically executes in the background
 

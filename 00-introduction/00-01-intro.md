@@ -1,3 +1,4 @@
+# Introduction
 *Purpose of webpack:* automatize bundling
 
 *Bundling:* assemble HTML, CSS, JS, images and all types of assets into a format that is usable for the browser

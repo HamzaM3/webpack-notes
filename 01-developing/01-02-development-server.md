@@ -1,7 +1,7 @@
 # Development Server
 Reloading after each change is annoying => automatic refresh/update created
 -> Ex: LiveReload and Browsersync cool
--> If CSS change, you canhave the style updated with no refresh (state preserved)
+-> If CSS change, you can have the style updated with no refresh (state preserved)
 
 `browser-sync-webpack-plugin` allows browsersync+webpack
 
@@ -33,7 +33,7 @@ wds depends on webpack cli
 ## `webpack-plugin-serve`
 Inserts the logic for browser update inside bundle.
 
-so wps = watch + logic insertion => hmr
+so wps = watch + some logic insertion => hmr
 
 > wps writes to the file system (bc of watch)
 > install `webpack-plugin-ramdisk` to write in RAM
@@ -83,7 +83,7 @@ Ngl, webpack-nano/argv is cool
 It works
 
 ## Accessing development server from the network
-some advice about remote and host change
+some advice about remote server and host change
 
 ## Polling instead of watching files
 Docker and Vagrant don't work with watch
@@ -115,7 +115,7 @@ use nodemon to get it to work:
 }
 ```
 ## Development plugins
-- `case-sensitive-paths-webpack-plugin`: takes care of path changes btw os's
+- `case-sensitive-paths-webpack-plugin`: takes care of path changes btw OS's
 - `react-dev-utils`: for create-react-app
 - `webpack-notifier`: notifications of webpack status
 
@@ -123,5 +123,4 @@ use nodemon to get it to work:
 `webpack-add-dependency-plugin`
 
 ## Conclusion
-![[Pasted image 20221128155623.png]]In the next chapter, you’ll learn to compose configuration so that it can be developed
-further later in the book.
+![[Pasted image 20221128155623.png]]

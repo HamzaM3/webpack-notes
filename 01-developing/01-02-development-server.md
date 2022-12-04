@@ -55,7 +55,7 @@ create a `start` script:
 }
 ```
 create config
-```json
+```js
 const { mode } = require("webpack-nano/argv");
 const {
 	MiniHtmlWebpackPlugin,

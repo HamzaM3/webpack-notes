@@ -1,0 +1,27 @@
+{
+  "name": "webpack-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp --mode production",
+    "start": "wp --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-merge": "^5.8.0",
+    "webpack-nano": "^1.1.1",
+    "webpack-plugin-serve": "^1.6.0"
+  },
+  "dependencies": {
+    "mini-html-webpack-plugin": "^3.1.3"
+  }
+}
